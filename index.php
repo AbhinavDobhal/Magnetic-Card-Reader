@@ -24,8 +24,24 @@
 	</font>
     
     
-		<?php include("MySwipe.php");?>
-   
+	
+	<script type="text/javascript">
+		// Parses raw scan into name and ID number
+		var companyCardParser = function (rawData) {
+			text="
+			
+			
+			Raw or Un-Processed Data From Your Magnetic Card: " + rawData;
+            alert(text);
+			cardData=rawData;
+			return cardData;
+		};
+
+		// Initialize the plugin.
+		$.cardswipe({
+			parser: companyCardParser
+		});
+		</script>
    
    </body>
 </html>
