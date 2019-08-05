@@ -4,8 +4,8 @@
 		<script type="text/javascript" src="jquery.cardswipe.js"></script>
 		<title>Magnetic Card Reader</title>
 	</head>
-	<body bgcolor="black">
-     <font color="#FFFFFF" >
+	<body bgcolor="#ddd">
+     <font color="#0000" >
 		<center>
         	<h1>Magnetic Card Reader</h1>
                   <hr width="50%">
